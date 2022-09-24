@@ -2,7 +2,7 @@ import React from 'react'
 
 function Home() {
   return (
-    <div className="Home container-lg container-fluid mt-3  px-5">
+    <div className="Home container-lg container-fluid mt-3 px-4  px-lg-5">
       <div className="row">
         <div className="col">
           <div className="px-0 px-lg-5 mt-1">

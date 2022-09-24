@@ -1,0 +1,36 @@
+.About {
+    .aboutHeading {
+        font-size: clamp(26px, 5vw, 32px);
+    }
+
+    .vl {
+        width: 25%;
+        margin-left: 4%;
+        padding-bottom: 5px;
+    }
+
+    .rounded {
+        border: 2px solid #64FFDA;
+        position: relative;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: inherit;
+        top: -15px;
+        right: 15px;
+        cursor:pointer;
+    }
+
+    img:hover {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: inherit;
+        top: -20px;
+        right: 20px;
+        cursor:pointer;
+    }
+}

@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div class="Navbar">
       <nav className="navbar navbar-expand-lg navbar-dark " >
-        <div className="container-fluid d-flex space-between pb-2 pt-3 px-5">
+        <div className="container-fluid d-flex space-between pb-2 pt-3 px-4 px-lg-5">
           <a className="navbar-brand border border-success border-2 py-2 rounded-circle btn fw-light text-success" href="#"><span>AJ</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div className="Toggler">

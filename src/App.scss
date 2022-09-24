@@ -3,7 +3,11 @@
 @import "./scss/RightInfoBar";
 @import "./scss/LeftInfoBar";
 @import "./scss/Home";
+@import "./scss/About";
 .App{
     min-height: 100vh;
     max-height: 100%;
+}
+.morocoCountingFont{
+    font-family: 'Roboto Mono', monospace;
 }
