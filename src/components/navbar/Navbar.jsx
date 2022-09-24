@@ -16,20 +16,20 @@ function Navbar() {
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul className="navbar-nav  mb-2 mb-lg-0">
               <li className="nav-item me-2">
-                <a className="nav-link fw-light text-light hover" href="#"><span className="text-success" >01. </span>About</a>
+                <a className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >01. </span>About</a>
               </li>
               <li className="nav-item me-2">
-                <a className="nav-link fw-light text-light hover" href="#"><span className="text-success" >02. </span> Experience</a>
+                <a className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >02. </span> Experience</a>
               </li>
               <li className="nav-item me-2">
-                <a className="nav-link fw-light text-light hover" href="#"> <span className="text-success" >03. </span> Work</a>
+                <a className="nav-link fw-light text-secondary hover" href="#"> <span className="text-success" >03. </span> Work</a>
               </li>
               <li className="nav-item me-2">
 
-                <a className="nav-link fw-light text-light hover" href="#"><span className="text-success" >04. </span> Contact</a>
+                <a className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >04. </span> Contact</a>
               </li>
               <li className="nav-item me-2">
-                <a className="nav-link fw-light text-light hover" href="#"><span className="text-success" >05. </span> Blog</a>
+                <a className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >05. </span> Blog</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link btn  text-success border border-success rounded-pill " href="#"><span className="px-2">Resume</span></a>

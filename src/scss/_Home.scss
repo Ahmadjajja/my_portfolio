@@ -3,11 +3,14 @@
         font-family: 'Nanum Gothic', sans-serif;
     }
     .name{
-        font-size: 75px;
+        margin: 0px;
+        font-size: clamp(40px, 8vw, 80px);
+        transition-delay: 200ms;
         font-family: 'Prompt', sans-serif;
     }
     .whoIs{
-        font-size: 50px;
+        margin: 0px;
+        font-size: clamp(30px, 6vw, 50px);
         font-family: 'Prompt', sans-serif;
     }
     .mailBtn{
