@@ -1,2 +1,7 @@
 @import "./scss/bootstrap";
 @import "./scss/navbar";
+@import "./scss/RightInfoBar";
+@import "./scss/LeftInfoBar";
+.App{
+    height: 100vh;
+}
