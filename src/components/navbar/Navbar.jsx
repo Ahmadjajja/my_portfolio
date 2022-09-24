@@ -32,7 +32,7 @@ function Navbar() {
                 <a className="nav-link fw-light text-light hover" href="#"><span className="text-success" >05. </span> Blog</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link btn  text-success border border-success rounded-pill" href="#"><span className="px-2">Resume</span></a>
+                <a className="nav-link btn  text-success border border-success rounded-pill " href="#"><span className="px-2">Resume</span></a>
               </li>
             </ul>
           </div>

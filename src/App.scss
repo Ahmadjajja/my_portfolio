@@ -2,6 +2,8 @@
 @import "./scss/navbar";
 @import "./scss/RightInfoBar";
 @import "./scss/LeftInfoBar";
+@import "./scss/Home";
 .App{
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100%;
 }
