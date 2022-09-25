@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="Contact container pb-5">
+    <div className="Contact container pb-5" id="contact">
       <div className="row">
         <div className="col d-flex flex-column align-items-center">
             <p className="text-success morocoCountingFont"><span>04. </span> What’s Next?</p>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div className="Experience container-fluid container-lg py-5 px-4  px-md-5 ">
+    <div className="Experience container-fluid container-lg py-5 px-4  px-md-5 " id="experience">
       <div className="row px-0 px-lg-5 mx-lg-5 mx-md-0">
         <div className="col">
           <div className='experienceHeading'>

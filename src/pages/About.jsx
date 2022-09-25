@@ -1,7 +1,7 @@
 import React from 'react'
 function About() {
   return (
-    <div className="About container-fluid container-lg py-5 px-4  px-md-5">
+    <div className="About container-fluid container-lg py-5 px-4  px-md-5 " id="about">
       <div className='row px-0 px-lg-5'>
         <div className="col ">
           <div className='aboutHeading'>
