@@ -1,3 +1,58 @@
-.Work{
-    
+.Work {
+    .vl {
+        width: 25%;
+        margin-left: 4%;
+        padding-bottom: 5px;
+    }
+    .headingHover:hover{
+        color:#64FFDA !important;
+    }
+    .work-box {
+        margin-bottom: 3rem;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        background-color: #0A192F;
+        min-height: 335px !important;
+        box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+        box-sizing: border-box;
+
+
+        .work-img {
+            display: block;
+            overflow: hidden;
+        }
+
+        .imgHover:hover {
+            max-width: 110% !important;
+            transition: all 0.5s ease-in-out ;
+            box-sizing: border-box;
+        }
+        .img{
+            transition: all 1s;
+        }
+
+        .work-content {
+            padding: 2rem 3% 1rem 4%;
+
+            .w-like {
+                font-size: 2.5rem;
+                color: #0078ff;
+                float: right;
+
+                .hover:hover {
+                    color: #64FFDA;
+                }
+            }
+
+            .w-title {
+                font-size: 1.2rem;
+            }
+
+            .w-more {
+                color: #4e4e4e;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
 }
