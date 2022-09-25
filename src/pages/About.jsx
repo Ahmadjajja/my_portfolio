@@ -1,7 +1,7 @@
 import React from 'react'
 function About() {
   return (
-    <div className="About container-fluid container-lg container-fluid py-5 px-4  px-md-5">
+    <div className="About container-fluid container-lg py-5 px-4  px-md-5">
       <div className='row px-0 px-lg-5'>
         <div className="col ">
           <div className='aboutHeading'>
@@ -19,7 +19,7 @@ function About() {
 
             I build things on the internet and love building large scale applications with system design in mind. I have worked in teams and also individually as a freelancer and got valuable learning experiences. Currently, I am expanding my knowledge in WEB 3.0 and Metaverse so that I will be part of this new ERA. I Love to teach Computer Science concepts.
 
-            I m still studying in my undergraduate degree at <a href="http://web.uaf.edu.pk/" className='text-success text-decoration-none'>University Of Agriculture Faislabad</a> , I have worked in <a href="https://seeraht.com/" className='text-success text-decoration-none'>Seeraht</a> as a MERN Stack Developer.
+            I m still studying in my undergraduate degree at <a href="http://web.uaf.edu.pk/" className='text-success text-decoration-none hover'>University Of Agriculture Faislabad</a> , I have worked in <a href="https://seeraht.com/" className='text-success text-decoration-none hover'>SEERAHT</a> as a MERN Stack Developer.
             <br/> <br/>
             Here is a TECH-STACK I've been working with recently:
           </p>
@@ -50,8 +50,8 @@ function About() {
           </div>
         </div>
         <div className="col-12 col-md-6 col-lg-4 px-5 pb-5">
-          <div className="rounded mt-3 mx-sm-5 mx-md-0">
-            <img src={require('./Ahmad.jpg')} alt="Ahmad" className='img image-fluid ' />
+          <div className="rounded mt-3 mx-sm-5 mx-md-0 ">
+            <img src={require('../assets/dp/Ahmad.jpg')} alt="Ahmad" className='img image-fluid ' />
           </div>
         </div>
       </div>
