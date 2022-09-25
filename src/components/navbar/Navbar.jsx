@@ -3,9 +3,9 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 function Navbar() {
   return (
-    <div class="Navbar">
+    <div class="Navbar ">
       <nav className="navbar navbar-expand-lg navbar-dark " >
-        <div className="container-fluid d-flex space-between pb-2 pt-3 px-4 px-lg-5">
+        <div className="container-fluid d-flex space-between pb-2 pt-3 px-4 px-md-5">
           <Link to="#/" className="navbar-brand border border-success border-2 py-2 rounded-circle btn fw-light text-success" href="#"><span>AJ</span></Link>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <div className="Toggler">
