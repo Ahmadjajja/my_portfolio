@@ -6,7 +6,7 @@ function Home() {
       <div className="row">
         <div className="col">
           <div className="px-0 px-lg-5 mt-1">
-            <p className='text-success fs-5 hello '>Hi, &nbsp; my &nbsp; name &nbsp; is</p>
+            <p className='text-success fs-5 hello font-monospace'>Hi, my name is</p>
             <h1 className='text-secondary name'>Ahmad Jajja</h1>
             <h1 className='text-primary whoIs mt-1'>An Engineer, Researcher and Mentor</h1>
             <p className='text-primary fs-5 mt-1'>

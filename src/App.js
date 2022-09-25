@@ -7,6 +7,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Work from "./pages/Work";
+import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 function App() {
   return (
     <div className="App" style={{backgroundColor: "#0A192F"}}>
@@ -17,6 +19,8 @@ function App() {
           <About/>
           <Experience/>
           <Work/>
+          <Contact/>
+          <Footer/>
     </div>
   );
 }

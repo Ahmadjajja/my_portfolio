@@ -1,0 +1,15 @@
+.Contact{
+    .secondHeading{
+        font-size: clamp(30px, 6vw, 50px);
+    }
+    .paragraph-description{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    max-width: 740px;
+    // margin: 0px auto 100px;
+    // text-align: center;
+}
