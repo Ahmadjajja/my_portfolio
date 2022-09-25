@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiGithub , FiTwitter, FiLinkedin, FiFacebook} from 'react-icons/fi'
+import { FiGithub , FiTwitter, FiLinkedin} from 'react-icons/fi'
 import { FaFacebookF} from 'react-icons/fa'
 function LeftInfoBar() {
   return (
