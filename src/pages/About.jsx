@@ -28,9 +28,9 @@ function About() {
             <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; Dart</div>
           </div>
           <div className="row mt-2">
-            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; HTML</div>
-            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; CSS</div>
-            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; SCSS</div>
+            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; HTML5</div>
+            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; CSS3,SCSS</div>
+            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; Bootstrap 5</div>
           </div>
           <div className="row mt-2">
             <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; Javascript (ES6+)</div>
