@@ -21,7 +21,7 @@ function Experience() {
           <p className='text-primary'>June - August 2022</p>
           <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Worked on social real-estate system Mobile App for purchasing and selling properties</p> 
           <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Worked on BANK-WEB-APP related to ATM Card Functionalities.</p> 
-          <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Built a Boosten-Academy-Dashboard-system for managing attandance and result of students.</p>
+          {/* <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Built a Boosten-Academy-Dashboard-system for managing attandance and result of students.</p> */}
         </div>
       </div>
     </div>

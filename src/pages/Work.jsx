@@ -74,7 +74,7 @@ function Work() {
           </div>
         </div>
       </div>
-      <div className="row px-0 px-lg-5 mt-3 ">
+      {/* <div className="row px-0 px-lg-5 mt-3 ">
         <div className="col-12 col-md-6">
           <div className="work-box p-4">
             <a href="https://res.cloudinary.com/jajja-group-of-company/image/upload/v1664136060/eissfanwpcileovgxvgb.png" target="_blank" data-lightbox="gallery-mf">
@@ -129,7 +129,7 @@ function Work() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
