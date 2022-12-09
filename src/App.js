@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App" style={{ backgroundColor: "#0A192F" }}>
       {!isLoading ?
-        <CustomRoutes/> 
+        <CustomRoutes/>
         :<MainLoader />
       }
 
