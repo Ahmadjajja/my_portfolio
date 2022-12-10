@@ -32,7 +32,7 @@ function Home() {
             <img
               src={require("../assets/certificate.jpeg")}
               alt="Ahmad"
-              className=" img image-fluid w-100 pt-5"
+              className=" img image-fluid w-100 pt-5" 
             />
           </div>
         </div>
