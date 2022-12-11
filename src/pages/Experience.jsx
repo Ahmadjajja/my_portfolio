@@ -6,7 +6,7 @@ function Experience() {
       <div className="row px-0 px-lg-5 mx-lg-5 mx-md-0">
         <div className="col">
           <div className='experienceHeading'>
-            <h4 className="text-success d-inline morocoCountingFont">02. </h4>
+            <h4 className="text-success d-inline morocoCountingFont">03. </h4>
             <h2 className="text-secondary d-inline">Where I’ve Worked</h2>
             <div className="vl border-top border-2 border-primary d-none d-md-inline-block"></div>
           </div>

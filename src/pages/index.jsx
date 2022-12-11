@@ -8,6 +8,7 @@ import Experience from "./Experience";
 import Work from "./Work";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Certification from "./Certification"
 function index() {
     return (
         <div>
@@ -16,6 +17,7 @@ function index() {
             <RightInfoBar />
             <Home />
             <About />
+            <Certification/>
             <Experience />
             <Work />
             <Contact />

@@ -20,14 +20,17 @@ function Navbar() {
                 <Link to="#about" className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >01. </span>About</Link>
               </li>
               <li className="nav-item me-2">
-                <Link to="#experience" className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >02. </span> Experience</Link>
+                <Link to="#certification" className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >02. </span>Certifications</Link>
               </li>
               <li className="nav-item me-2">
-                <Link to="#work" className="nav-link fw-light text-secondary hover" href="#"> <span className="text-success" >03. </span> Work</Link>
+                <Link to="#experience" className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >03. </span> Experience</Link>
+              </li>
+              <li className="nav-item me-2">
+                <Link to="#work" className="nav-link fw-light text-secondary hover" href="#"> <span className="text-success" >04. </span> Work</Link>
               </li>
               <li className="nav-item me-2">
 
-                <Link to="#contact" className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >04. </span> Contact</Link>
+                <Link to="#contact" className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >05. </span> Contact</Link>
               </li>
               {/* <li className="nav-item me-2">
                 <a className="nav-link fw-light text-secondary hover" href="#"><span className="text-success" >05. </span> Blog</a>

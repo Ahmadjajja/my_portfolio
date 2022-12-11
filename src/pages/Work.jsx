@@ -6,7 +6,7 @@ function Work() {
       <div className="row px-0 px-lg-5">
         <div className="col">
           <div className='workHeading'>
-            <h4 className="text-success d-inline morocoCountingFont">03. </h4>
+            <h4 className="text-success d-inline morocoCountingFont">04. </h4>
             <h2 className="text-secondary d-inline">Some Things I’ve Built</h2>
             <div className="vl border-top border-2 border-primary d-none d-md-inline-block"></div>
           </div>

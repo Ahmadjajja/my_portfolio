@@ -14,7 +14,7 @@ function About() {
       <div className='row mt-5 px-0 px-lg-5 '>
         <div className="col-12 col-md-6 col-lg-8 pb-5">
           <p className="text-primary pe-0 pe-md-5">
-            Hello! I'm Ahmad,Currently working as a MERN Stack Software Developer based in Faisalabad, PK. <br/> <br/>
+            Hello! I'm Ahmad, currently working as a MERN Stack Software Developer based in Faisalabad, PK. <br/> <br/>
 
             I build things on the internet and love building large scale applications with system design in mind. I have worked in teams and also individually as a freelancer and got valuable learning experiences.
              {/* Currently, I am expanding my knowledge in WEB 3.0 and Metaverse so that I will be part of this new ERA.  */}
