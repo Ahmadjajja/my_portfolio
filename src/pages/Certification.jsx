@@ -18,18 +18,18 @@ function About() {
         <div className="col-12 col-md-6">
           <div className="px-md-2 rounded">
             <img
-              src={require("../assets/certificate.jpeg")}
+              src={require("../assets/wmdCertificate.png")}
               alt="Ahmad"
-              className="img image-fluid px-md-2"
+              className="img image-fluid px-md-2 certificationsImages"
             />
           </div>
         </div>
         <div className="col-12 col-md-6 pt-md-0 pt-3">
           <div className="rounded">
             <img
-              src={require("../assets/JavaScriptCertificate.jpeg")}
+              src={require("../assets/jsCertificate.jpg")}
               alt="Ahmad"
-              className="img image-fluid px-md-2 "
+              className="img image-fluid px-md-2 certificationsImages"
             />
           </div>
         </div>

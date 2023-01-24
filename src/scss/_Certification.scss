@@ -2,6 +2,16 @@
     .certificationHeading {
         font-size: clamp(26px, 5vw, 32px);
     }
+    .certificationsImages{
+        height: 95%;
+        width: 95%;
+        object-fit: cover;
+        // position: inherit;
+        // top: -15px;
+        // right: 15px;
+        cursor:pointer;
+        // border-radius: 8px;
+    }
 
     .vl {
         width: 25%;
@@ -18,16 +28,9 @@
         text-decoration: underline !important;
     }
 
-    img {
-        height: 95%;
-        width: 95%;
-        object-fit: cover;
-        position: inherit;
-        // top: -15px;
-        // right: 15px;
-        cursor:pointer;
-        // border-radius: 8px;
-    }
+    // img {
+
+    // }
 
     // img:hover {
     //     height: 100%;

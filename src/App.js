@@ -22,8 +22,6 @@ function App() {
         <CustomRoutes/>
         :<MainLoader />
       }
-
-      
     </div>
   );
 }

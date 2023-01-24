@@ -49,10 +49,15 @@ function About() {
             <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; Express Js</div>
             <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp; Mongodb</div>
           </div>
+          <div className="row mt-2">
+            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> &nbsp;GraphQL</div>
+            {/* <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> </div>
+            <div className="col text-primary"> <i class="fa-solid fa-caret-right text-success"></i> </div> */}
+          </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-4 px-5 pb-5">
+        <div className="col-12 col-md-6 col-lg-4 px-5 pb-5">        
           <div className="rounded mt-3 mx-sm-5 mx-md-0 ">
-            <img src={require('../assets/dp/Ahmad.jpg')} alt="Ahmad" className='img image-fluid ' />
+            <img src={require('../assets/dp/Ahmad.jpg')} alt="Ahmad" className='img image-fluid selfImage' />
           </div>
         </div>
       </div>

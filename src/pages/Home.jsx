@@ -8,7 +8,7 @@ function Home() {
           <div className="px-0 px-lg-5 mt-1">
             <p className='text-success fs-5 hello font-monospace'>Hi, my name is</p>
             <h1 className='text-secondary name'>Ahmad Jajja</h1>
-            <h1 className='text-primary whoIs mt-1'>An Engineer, Researcher and Mentor</h1>
+            <h1 className='text-primary whoIs mt-1'>A Full Stack Software Engineer, Researcher and Mentor</h1>
             <p className='text-primary fs-5 mt-1'> 
               A Techy with keen interest in Backend Engineering, WEB 3.0 and Metaverse. <br />An aspiring Certified MERN  Stack  Software Engineer with a focus on Large Scale Systems.
             </p>
