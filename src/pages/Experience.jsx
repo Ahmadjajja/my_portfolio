@@ -14,6 +14,16 @@ function Experience() {
       </div>
       <div className="row px-0 px-lg-5 mx-lg-5 mx-md-0 my-5">
         <div class="col-sm-2 d-none d-sm-block">
+          <p className='text-success py-2 border-start border-2 border-success px-2'>SELF-EMPLOYED</p>
+        </div>
+        <div className="col col-sm-10">
+          <p className='text-secondary my-2 h5'>MERN Stack Engineer  </p>
+          <p className='text-primary'>November 2022 - Present</p>
+          <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Responsible for developing and planning the structure of project, Frontend with React and backend with Node js of UAE based project.</p> 
+        </div>
+      </div>
+      <div className="row px-0 px-lg-5 mx-lg-5 mx-md-0 my-5">
+        <div class="col-sm-2 d-none d-sm-block">
           <p className='text-success py-2 border-start border-2 border-success px-2'>SEERAHT</p>
         </div>
         <div className="col col-sm-10">
@@ -22,6 +32,16 @@ function Experience() {
           <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Worked on social real-estate system Mobile App for purchasing and selling properties</p> 
           <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Worked on BANK-WEB-APP related to ATM Card Functionalities.</p> 
           {/* <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; Built a Boosten-Academy-Dashboard-system for managing attandance and result of students.</p> */}
+        </div>
+      </div>
+      <div className="row px-0 px-lg-5 mx-lg-5 mx-md-0 my-5">
+        <div class="col-sm-2 d-none d-sm-block">
+          <p className='text-success py-2 border-start border-2 border-success px-2'>SMIT</p>
+        </div>
+        <div className="col col-sm-10">
+          <p className='text-secondary my-2 h5'>TRAINER <a href="https://pk.worldorgs.com/catalog/faisalabad/accountant/saylani-mass-training-faisalabad" className='text-success text-decoration-none A'>@ <span className='hover'>Saylani Mass Training Faisalabad</span></a> </p>
+          <p className='text-primary'>December 2022 - Present</p>
+          <p className='mt-4 text-primary'><i class="fa-solid fa-caret-right text-success"></i> &nbsp; <b>Teaching Students in:</b> &nbsp; &nbsp; HTML, CSS, SCSS, Bootstrap, Javascript, Typescript, React Js, React Native, Node js,Express Js, Mongodb, Firebase, Git, Github</p> 
         </div>
       </div>
     </div>

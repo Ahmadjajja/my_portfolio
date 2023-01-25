@@ -30,6 +30,7 @@ function About() {
               src={require("../assets/jsCertificate.jpg")}
               alt="Ahmad"
               className="img image-fluid px-md-2 certificationsImages"
+              style={{paddingTop: "5px"}}
             />
           </div>
         </div>
