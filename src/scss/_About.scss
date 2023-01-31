@@ -9,39 +9,126 @@
         padding-bottom: 5px;
     }
 
-    .rounded {
-        border: 2px solid #64FFDA;
-        position: relative;
-        .selfImage{
-            
-        }
-    }
-    .hover:hover{
-        color: #64FFDA !important;
-        text-decoration: underline !important;
-    }
+
+
+    // .rounded {
+    //     border: 2px solid #64FFDA;
+    //     position: relative;
+    //     .selfImage{
+             
+    //     }
+    // }
+    // .hover:hover{
+    //     color: #64FFDA !important;
+    //     text-decoration: underline !important;
+    // }
 
     img {
         height: 100%;
         width: 100%;
         object-fit: cover;
-        position: inherit;
-        top: -15px;
-        right: 15px;
+        // position: inherit;
+        // top: -15px;
+        // right: 15px;
         cursor:pointer;
-        border-radius: 8px;
     }
 
-    img:hover {
+    // img:hover {
+    //     height: 100%;
+    //     width: 100%;
+    //     object-fit: cover;
+    //     position: inherit;
+    //     top: -20px;
+    //     right: 20px;
+    //     cursor:pointer;
+    //     border-radius: 8px;
+    //     // opacity: 0.9 !important;
+
+    // }
+
+
+
+
+    figure.image {
+        position: relative;
+        overflow: hidden;
+        margin: 10px;
+        // min-width: 220px;
+        // max-width: 310px;
+        // max-height: 220px;
         height: 100%;
         width: 100%;
-        object-fit: cover;
-        position: inherit;
-        top: -20px;
-        right: 20px;
-        cursor:pointer;
-        border-radius: 8px;
-        // opacity: 0.9 !important;
-
-    }
+        background: #64FFDA;
+        color: #eeeeee;
+        text-align: center;
+      }
+      figure.image * {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      figure.image img {
+        max-width: 100%;
+        position: relative;
+        opacity: 0.6;
+      }
+      figure.image h3 {
+        position: absolute;
+        left: 50px;
+        right: 50px;
+        display: inline-block;
+        background: #0A192F;
+        -webkit-transform: skew(-5deg) rotate(-10deg) translate(0, -50%);
+        -moz-transform: skew(-5deg) rotate(-10deg) translate(0, -50%);
+        -ms-transform: skew(-5deg) rotate(-10deg) translate(0, -50%);
+        -o-transform: skew(-5deg) rotate(-10deg) translate(0, -50%);
+        transform: skew(-5deg) rotate(-10deg) translate(0, -50%);
+        padding: 15px 5px;
+        margin: 0;
+        top: 50%;
+        text-transform: uppercase;
+        font-weight: 400;
+      }
+      figure.image:before {
+        height: 130%;
+        width: 130%;
+        top: 0;
+        left: 0;
+        content: '';
+        background: #0A192F;
+        opacity: 0.5;
+        position: absolute;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        -webkit-transform: rotate(110deg) translateY(-50%);
+        -moz-transform: rotate(110deg) translateY(-50%);
+        -ms-transform: rotate(110deg) translateY(-50%);
+        -o-transform: rotate(110deg) translateY(-50%);
+        transform: rotate(110deg) translateY(-50%);
+      }
+      figure.image:hover img,
+      figure.image.hover img {
+        opacity: 1;
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      figure.image:hover h3,
+      figure.image.hover h3 {
+        -moz-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+        -ms-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+        -o-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+        transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+      }
+      figure.image:hover:before,
+      figure.image.hover:before {
+        -moz-transform: rotate(110deg) translateY(-150%);
+        -ms-transform: rotate(110deg) translateY(-150%);
+        -o-transform: rotate(110deg) translateY(-150%);
+        transform: rotate(110deg) translateY(-150%);
+      }
 }
