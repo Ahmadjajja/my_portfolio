@@ -32,7 +32,7 @@ function Work() {
                   <a href="https://github.com/Ahmadjajja/React_Bank.git" target="_blank" className="w-title text-decoration-none text-secondary h2 headingHover">Bank App</a>
                   <div className="w-more mt-1">
                     <span className="text-secondary">Web App Design & Development</span> <br />
-                    <span className="w-date text-primary">A Web application build on React JS and Firebase</span>
+                    <span className="w-date text-primary">"React-Firebase Bank-App: A Full-Stack Banking Application for Secure and Convenient Financial Management".</span>
                   </div>
                 </div>
                 <div className="col-12 col-sm-4">
@@ -56,10 +56,10 @@ function Work() {
             <div className="work-content ">
               <div className="row">
                 <div className="col-sm-8">
-                  <a href="https://github.com/Ahmadjajja/Hackathon_Frontend_2022_Batch_04.git" target="_blank" className="w-title text-decoration-none text-secondary h2 headingHover">Real-Estate App</a>
+                  <a href="https://github.com/Ahmadjajja/Real_Estate_Mobile_App" target="_blank" className="w-title text-decoration-none text-secondary h2 headingHover">Real-Estate App</a>
                   <div className="w-more mt-1">
                     <span className="text-secondary">Mobile App Design & Development</span> <br />
-                    <span className="w-date text-primary">A Mobile application build on React Native , Node JS and Mongodb</span>
+                    <span className="w-date text-primary">A Stunning Real Estate Mobile App Project built with React Native, Node JS, MongoDB Express JS and NativeBase!"</span>
                   </div>
                 </div>
                 <div className="col-12 col-sm-4">

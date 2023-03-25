@@ -30,15 +30,7 @@ function About() {
               className="text-success text-decoration-none hover"
             >
               University Of Agriculture Faisalabad
-            </a>{" "}
-            , I have worked in{" "}
-            <a
-              href="https://seeraht.com/"
-              className="text-success text-decoration-none hover"
-            >
-              SEERAHT
-            </a>{" "}
-            as a MERN Stack Developer.
+            </a>{" "}.
             <br /> <br />
             Here is a TECH-STACK I've been working with recently:
           </p>
